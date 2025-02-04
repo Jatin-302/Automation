@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="QA ENV Test Cases">
+        <classes>
+            <class name="org.jan_04_25.AccountsEx2"></class>
+            <class name="org.jan_04_25.ReportsTC"></class>
+            <class name="org.jan_04_25.UsersEx2"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="STAGE ENV Test Cases">
+        <classes>
+            <class name="org.jan_04_25.InstagramTC"></class>
+            <class name="org.jan_04_25.WhatsAppTC"></class>
+        </classes>
+    </test>
+</suite>

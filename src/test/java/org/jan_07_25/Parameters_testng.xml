@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="username" value="admin"></parameter>
+    <parameter name="password" value="manager"></parameter>
+    <test verbose="2" preserve-order="true" name="Parameters Practice">
+        <classes>
+            <class name="org.jan_07_25.ParametersEx"></class>
+        </classes>
+    </test>
+</suite>

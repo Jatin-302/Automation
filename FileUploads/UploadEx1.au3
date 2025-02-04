@@ -1,0 +1,5 @@
+WinWaitActive("Open","",10)
+Sleep(2000)
+Send("C:\Users\mekha\workspace_intellij\NewProject1\FileUploads\UploadData.txt")
+Sleep(2000)
+Send("{ENTER}")
