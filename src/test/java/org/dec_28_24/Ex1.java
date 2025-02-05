@@ -38,4 +38,5 @@ public class Ex1 {
         }
         System.out.println("** Program Ends **");
     }
+    // this is new line
 }
